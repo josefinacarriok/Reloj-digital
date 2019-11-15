@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: black;
+}
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+			transform: translate(-50%,-50%);
+	color: #f798e6;
+	font-family: Orbitron;
+	letter-spacing: 7px;
+	font-weight: bold;
+	font-size: 2.8rem;
+	text-shadow: 0 0 3rem #f798e6 !important;
+}
+.d-inline > * {
+	font-size: .5rem;
+	letter-spacing: 0px;
+	color: #f798e6;
+	width: 100%;
+	display: inline-block;
+}
+.d-inline > .my-active {
+	color: #f798e6 !important;
+}
+.d-inline {
+	margin: 0;
+	padding: 0;
+	display: -webkit-box !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+}
